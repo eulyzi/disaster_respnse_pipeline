@@ -1,5 +1,6 @@
 # disaster_respnse_pipeline
 
+
 ### Table of Contents
 
 1. [Description](#description)
@@ -16,6 +17,9 @@
 
 When a disaster comes, people would send infomation from several places like SMS, Tweet,Facebook and other public or private places. One of the important things is to classify their needs into specific categories from those messages so different agencies in charge can handle those needs quickly and  precisely.
 This project is to create a machine learning pipeline to categorize these messages and set up a user-friendly webserver so that workers of agencies can easily classifying and distributing specific needs within those messages.
+
+<img src="images/classification_example.png">
+
 
 ## Installation <a name="installation"></a>
 
@@ -48,8 +52,12 @@ There are 3 parts of the project:
     |- InsertDatabaseName.db   # database to save clean data to
 
     - models
-    |- train_classifier.py
+    |- train_classifier.py # train model
     |- classifier.pkl  # saved model 
+    
+    - images
+    |- overview.png # overview of webserve
+    |- classification_example.png # example of classification 
 ```
 
 ### Instructions <a name="instructions"></a>:
@@ -64,6 +72,7 @@ There are 3 parts of the project:
     `python run.py`
 
 3. Go to `http://0.0.0.0:3001/` or `http://127.0.0.1:3001/` for Windows.
+<img src="images/overview.png">
 
 ## Licensing <a name="licensing"></a>
 
