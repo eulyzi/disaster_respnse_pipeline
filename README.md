@@ -14,7 +14,7 @@
 
 ## Description<a name="description"></a>
 
-When disaster comes, people would send infomation from several places like SMS, Tweet,Facebook and other public or private places. One of the important things is to classify their needs into specific categories from those messages so different agencies in charge can handle those needs quickly and  precisely.
+When a disaster comes, people would send infomation from several places like SMS, Tweet,Facebook and other public or private places. One of the important things is to classify their needs into specific categories from those messages so different agencies in charge can handle those needs quickly and  precisely.
 This project is to create a machine learning pipeline to categorize these messages and set up a user-friendly webserver so that workers of agencies can easily classifying and distributing specific needs within those messages.
 
 ## Installation <a name="installation"></a>
